@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{{ title }}</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/site.css"/>
+        <script type=text/javascript src="{{
+            url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
+    </head>
+    <body>
+        <span class="message"><strong>{{ content }}</strong></span>. It's {{date}}.
+    </body>
+</html>

@@ -1,0 +1,41 @@
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+h2 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  background: white;
+  border: 5px solid blue;
+}
+
+legend {
+  padding: 10px;
+  background: cyan;
+  color: cyan;
+}
+
+.center-div
+{
+     margin: 0 auto;
+     width: 100px; 
+}
+
+.row-bottom-margin { margin-bottom: 0 !important; }
